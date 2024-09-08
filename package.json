@@ -1,8 +1,12 @@
 {
-  "name": "uhaber-mehmetuysal-dev-server",
+  "name": "uhaber",
   "version": "1.0.0",
   "main": "main.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uys2000-projects/UHaber.git"
+  },
   "scripts": {
     "start": "tsx main.ts start",
     "serve": "tsx --watch main.ts start",
@@ -11,7 +15,7 @@
     "news:add": "tsx main.ts addNews",
     "news:add:watch": "tsx --watch main.ts addNews"
   },
-  "author": "",
+  "author": "siliente2020@gmail.com",
   "license": "MIT",
   "description": "",
   "dependencies": {
