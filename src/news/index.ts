@@ -11,6 +11,7 @@ const getCategoryLinks = async (url: string) => {
   const data = (await get(url)).data;
   const message = `Bu sayfada ki haber linklerini satir satir sadece linkleri yazarak donebilir misin, baska bir sey yazmadan: ${data}`;
   const { response } = await ask(message);
+  if (!response) return [];
   return response
     .text()
     .split("\n")
@@ -18,9 +19,11 @@ const getCategoryLinks = async (url: string) => {
 };
 
 const getNewsSummary = async (url: string) => {
-  const data = (await get(url)).data;
+  const data = (await get(url).catch(() => ({ data: undefined }))).data;
+  if (!data) return undefined;
   const message = `Cevap disinda bir sey yazmadan, bu haber sayfasi icin baslik ve ozet yazabilir misin, cevabi {"title":"",summary:""} seklinde json formatinda yazabilir misin: ${data}`;
   const { response } = await ask(message);
+  if (!response?.text) return undefined;
   return response.text();
 };
 
@@ -62,11 +65,14 @@ export default async () => {
     const site = sites[sIndex];
     for (let cIndex = 0; cIndex < site.categories.length; cIndex++) {
       const category = site.categories[cIndex];
-      const urls = await getCategoryLinks.pLogger(category.url);
+      const urls = await getCategoryLinks.pLogger(category.url).catch(() => []);
       for (let nIndex = 0; nIndex < urls.length; nIndex++) {
         const url = urls[nIndex];
         if (await urlExist.pLogger(url)) continue;
-        const summary = await getNewsSummary.pLogger(url);
+        const summary = await getNewsSummary
+          .pLogger(url)
+          .catch(() => undefined);
+        if (!summary) continue;
         const news = await getNews.pLogger(summary);
         const data = getData(site, category, url, news);
         await addNews.pLogger(data);
