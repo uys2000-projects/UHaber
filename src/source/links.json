@@ -1,0 +1,533 @@
+{
+  "sabah": {
+    "name": "Sabah",
+    "categories": [
+      { "name": "Ekonomi", "url": "https://www.sabah.com.tr/rss/ekonomi.xml" },
+      { "name": "Spor", "url": "https://www.sabah.com.tr/rss/spor.xml" },
+      { "name": "Gündem", "url": "https://www.sabah.com.tr/rss/gundem.xml" },
+      { "name": "Yaşam", "url": "https://www.sabah.com.tr/rss/yasam.xml" },
+      { "name": "Dünya", "url": "https://www.sabah.com.tr/rss/dunya.xml" },
+      {
+        "name": "Teknoloji",
+        "url": "https://www.sabah.com.tr/rss/teknoloji.xml"
+      },
+      { "name": "Turizm", "url": "https://www.sabah.com.tr/rss/turizm.xml" },
+      {
+        "name": "Otomobil",
+        "url": "https://www.sabah.com.tr/rss/otomobil.xml"
+      },
+      {
+        "name": "Yazarlar",
+        "url": "https://www.sabah.com.tr/rss/yazarlar.xml"
+      },
+      { "name": "Sağlık", "url": "https://www.sabah.com.tr/rss/saglik.xml" },
+      {
+        "name": "Günün İçinden",
+        "url": "https://www.sabah.com.tr/rss/gununicinden.xml"
+      },
+      {
+        "name": "Haftanın Filmleri",
+        "url": "https://www.sabah.com.tr/rss/vizyondakiler.xml"
+      },
+      {
+        "name": "Son Dakika",
+        "url": "https://www.sabah.com.tr/rss/sondakika.xml"
+      },
+      {
+        "name": "Galatasaray",
+        "url": "https://www.sabah.com.tr/rss/galatasaray.xml"
+      },
+      {
+        "name": "Fenerbahçe",
+        "url": "https://www.sabah.com.tr/rss/fenerbahce.xml"
+      },
+      {
+        "name": "Beşiktaş",
+        "url": "https://www.sabah.com.tr/rss/besiktas.xml"
+      },
+      {
+        "name": "Trabzonspor",
+        "url": "https://www.sabah.com.tr/rss/trabzonspor.xml"
+      },
+      {
+        "name": "Bursaspor",
+        "url": "https://www.sabah.com.tr/rss/bursaspor.xml"
+      },
+      {
+        "name": "Kültür Sanat",
+        "url": "https://www.sabah.com.tr/rss/kultur-sanat.xml"
+      },
+      { "name": "Oyun", "url": "https://www.sabah.com.tr/rss/oyun.xml" },
+      {
+        "name": "Sofra Tarifler",
+        "url": "https://www.sabah.com.tr/rss/tarif.xml"
+      },
+      { "name": "Sofra", "url": "https://www.sabah.com.tr/rss/sofra.xml" },
+      {
+        "name": "Sofra Koleksiyonlar",
+        "url": "https://www.sabah.com.tr/rss/koleksiyon.xml"
+      },
+      {
+        "name": "Sofra Akademi",
+        "url": "https://www.sabah.com.tr/rss/akademi.xml"
+      },
+      { "name": "Roza", "url": "https://www.sabah.com.tr/rss/roza.xml" },
+      { "name": "Trend", "url": "https://www.sabah.com.tr/rss/trend.xml" },
+      {
+        "name": "Finans Borsa Haberleri",
+        "url": "https://www.sabah.com.tr/rss/finansborsa-haberleri.xml"
+      },
+      {
+        "name": "Finans Ekonomi Haberleri",
+        "url": "https://www.sabah.com.tr/rss/finansekonomi-haberleri.xml"
+      },
+      {
+        "name": "Finans Gündem Haberleri",
+        "url": "https://www.sabah.com.tr/rss/finansgundem-haberleri.xml"
+      },
+      {
+        "name": "Finans Döviz-Emtia Haberleri",
+        "url": "https://www.sabah.com.tr/rss/finansemtia-doviz-haberleri.xml"
+      },
+      {
+        "name": "Finans Şirket Haberleri",
+        "url": "https://www.sabah.com.tr/rss/finanssirket-haberleri.xml"
+      },
+      {
+        "name": "Finans Kripto Para Haberleri",
+        "url": "https://www.sabah.com.tr/rss/finanskripto-para-haberleri.xml"
+      },
+      {
+        "name": "Finans Altın Haberleri",
+        "url": "https://www.sabah.com.tr/rss/finansaltin-haberleri.xml"
+      },
+      { "name": "Laykla", "url": "https://www.sabah.com.tr/rss/laykla.xml" }
+    ]
+  },
+  "cnn": {
+    "name": "CNN",
+    "categories": [
+      {
+        "name": "Son Dakika",
+        "url": "https://www.ntv.com.tr/son-dakika.rss"
+      },
+      {
+        "name": "Foto Galeri",
+        "url": "https://www.ntv.com.tr/galeri.rss"
+      },
+      {
+        "name": "Video Galeri",
+        "url": "https://www.ntv.com.tr/video.rss"
+      },
+      {
+        "name": "Gündem",
+        "url": "https://www.ntv.com.tr/gundem.rss"
+      },
+      {
+        "name": "Türkiye",
+        "url": "https://www.ntv.com.tr/turkiye.rss"
+      },
+      {
+        "name": "Eğitim",
+        "url": "https://www.ntv.com.tr/egitim.rss"
+      },
+      {
+        "name": "Ekonomi",
+        "url": "https://www.ntv.com.tr/ekonomi.rss"
+      },
+      {
+        "name": "Ntv Para",
+        "url": "https://www.ntv.com.tr/ntvpara.rss"
+      },
+      {
+        "name": "N-Life",
+        "url": "https://www.ntv.com.tr/n-life.rss"
+      },
+      {
+        "name": "Dünya",
+        "url": "https://www.ntv.com.tr/dunya.rss"
+      },
+      {
+        "name": "Yaşam",
+        "url": "https://www.ntv.com.tr/yasam.rss"
+      },
+      {
+        "name": "Spor",
+        "url": "https://www.ntv.com.tr/spor.rss"
+      },
+      {
+        "name": "Spor & Skor",
+        "url": "https://www.ntv.com.tr/sporskor.rss"
+      },
+      {
+        "name": "Teknoloji",
+        "url": "https://www.ntv.com.tr/teknoloji.rss"
+      },
+      {
+        "name": "Sağlık",
+        "url": "https://www.ntv.com.tr/saglik.rss"
+      },
+      {
+        "name": "Sanat",
+        "url": "https://www.ntv.com.tr/sanat.rss"
+      },
+      {
+        "name": "Seyahat",
+        "url": "https://www.ntv.com.tr/seyahat.rss"
+      },
+      {
+        "name": "Otomobil",
+        "url": "https://www.ntv.com.tr/otomobil.rss"
+      }
+    ]
+  },
+  "aa": {
+    "name": "AA",
+    "categories": [
+      {
+        "name": "İklim Değişikliği",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=iklim-degisikligi"
+      },
+      {
+        "name": "Yeşil Ekonomi",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=yesil-ekonomi"
+      },
+      {
+        "name": "Sıfır Atık",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=sifir-atik"
+      },
+      {
+        "name": "Çevre Hikayeleri",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=cevre-hikayeleri"
+      },
+      {
+        "name": "Yeşil Sözlük",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=yesil-sozluk"
+      },
+      {
+        "name": "Bilim",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=bilim"
+      },
+      {
+        "name": "Kirlilik",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=kirlilik"
+      },
+      {
+        "name": "Teknoloji",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=teknoloji"
+      },
+      {
+        "name": "Doğal Yaşam",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/news?cat=dogal-yasam"
+      },
+      {
+        "name": "Fotoğraflar",
+        "url": "https://www.aa.com.tr/tr/yesilhat/rss/photogallery"
+      }
+    ]
+  },
+  "anayurt": {
+    "name": "Ana Yurt",
+    "categories": [
+      {
+        "name": "Tüm İçerik",
+        "url": "https://anayurtgazetesi.com/rss.xml"
+      },
+      {
+        "name": "Haberler",
+        "url": "https://anayurtgazetesi.com/rss/haber"
+      },
+      {
+        "name": "Makaleler",
+        "url": "https://anayurtgazetesi.com/rss/makale"
+      },
+      {
+        "name": "Foto Haberler",
+        "url": "https://anayurtgazetesi.com/rss/foto"
+      },
+      {
+        "name": "Video Haberler",
+        "url": "https://anayurtgazetesi.com/rss/video"
+      },
+      {
+        "name": "Röportajlar",
+        "url": "https://anayurtgazetesi.com/rss/roportaj"
+      }
+    ]
+  },
+  "cumhuriyet": {
+    "name": "Cumhuriyet",
+    "categories": [
+      {
+        "name": "Genel",
+        "url": "https://www.cumhuriyet.com.tr/rss"
+      }
+    ]
+  },
+  "haberturk": {
+    "name": "Haber Turk",
+    "categories": [
+      {
+        "name": "Manşetler",
+        "url": "https://www.haberturk.com/rss/manset.xml"
+      },
+      {
+        "name": "Tüm Haberler",
+        "url": "https://www.haberturk.com/rss"
+      },
+      {
+        "name": "Ekonomi",
+        "url": "https://www.haberturk.com/rss/ekonomi.xml"
+      },
+      {
+        "name": "Spor",
+        "url": "https://www.haberturk.com/rss/spor.xml"
+      },
+      {
+        "name": "Magazin",
+        "url": "https://www.haberturk.com/rss/magazin.xml"
+      },
+      {
+        "name": "Medya",
+        "url": "https://www.haberturk.com/rss/kategori/medya.xml"
+      },
+      {
+        "name": "Kadın",
+        "url": "https://www.haberturk.com/rss/kategori/kadin.xml"
+      },
+      {
+        "name": "Siyaset",
+        "url": "https://www.haberturk.com/rss/kategori/siyaset.xml"
+      },
+      {
+        "name": "Tatil",
+        "url": "https://www.haberturk.com/rss/kategori/tatil.xml"
+      },
+      {
+        "name": "İş Yaşam",
+        "url": "https://www.haberturk.com/rss/kategori/is-yasam.xml"
+      },
+      {
+        "name": "Astroloji",
+        "url": "https://www.haberturk.com/rss/kategori/astroloji.xml"
+      },
+      {
+        "name": "Sağlık",
+        "url": "https://www.haberturk.com/rss/kategori/saglik.xml"
+      },
+      {
+        "name": "Dünya",
+        "url": "https://www.haberturk.com/rss/kategori/dunya.xml"
+      },
+      {
+        "name": "Yaşam",
+        "url": "https://www.haberturk.com/rss/kategori/yasam.xml"
+      },
+      {
+        "name": "Gıda",
+        "url": "https://www.haberturk.com/rss/kategori/gida.xml"
+      },
+      {
+        "name": "Gündem",
+        "url": "https://www.haberturk.com/rss/kategori/gundem.xml"
+      },
+      {
+        "name": "Kültür-Sanat",
+        "url": "https://www.haberturk.com/rss/kategori/kultur-sanat.xml"
+      },
+      {
+        "name": "Sinema",
+        "url": "https://www.haberturk.com/rss/kategori/sinema.xml"
+      },
+      {
+        "name": "Teknoloji",
+        "url": "https://www.haberturk.com/rss/kategori/teknoloji.xml"
+      },
+      {
+        "name": "Otomobil",
+        "url": "https://www.haberturk.com/rss/kategori/otomobil.xml"
+      },
+      {
+        "name": "Kitap",
+        "url": "https://www.haberturk.com/rss/kategori/kitap.xml"
+      },
+      {
+        "name": "Video",
+        "url": "https://www.haberturk.com/rss/kategori/video.xml"
+      },
+      {
+        "name": "Yazarlar",
+        "url": "https://www.haberturk.com/rss/kategori/yazarlar.xml"
+      },
+      {
+        "name": "Yerel Haberler",
+        "url": "https://www.haberturk.com/rss/yerel-haberler.xml"
+      }
+    ]
+  },
+  "yeniakit": {
+    "name": "Yeni Akit",
+    "categories": [
+      {
+        "name": "Haberler",
+        "url": "https://www.yeniakit.com.tr/rss/haber"
+      },
+      {
+        "name": "Ekonomi",
+        "url": "https://www.yeniakit.com.tr/rss/haber/ekonomi"
+      },
+      {
+        "name": "Günün Manşetleri",
+        "url": "https://www.yeniakit.com.tr/rss/haber/gunun-mansetleri"
+      },
+      {
+        "name": "Bugünkü Akit",
+        "url": "https://www.yeniakit.com.tr/rss/haber/bugunku-akit"
+      },
+      {
+        "name": "Özel Haber",
+        "url": "https://www.yeniakit.com.tr/rss/haber/ozel-haber"
+      },
+      {
+        "name": "Gündem",
+        "url": "https://www.yeniakit.com.tr/rss/haber/gundem"
+      },
+      {
+        "name": "Siyaset",
+        "url": "https://www.yeniakit.com.tr/rss/haber/siyaset"
+      },
+      {
+        "name": "Dünya",
+        "url": "https://www.yeniakit.com.tr/rss/haber/dunya"
+      },
+      {
+        "name": "Teknoloji",
+        "url": "https://www.yeniakit.com.tr/rss/haber/teknoloji"
+      },
+      {
+        "name": "Spor",
+        "url": "https://www.yeniakit.com.tr/rss/haber/spor"
+      },
+      {
+        "name": "Aktüel",
+        "url": "https://www.yeniakit.com.tr/rss/haber/aktuel"
+      },
+      {
+        "name": "Kültür-Sanat",
+        "url": "https://www.yeniakit.com.tr/rss/haber/kultur-sanat"
+      },
+      {
+        "name": "Otomotiv",
+        "url": "https://www.yeniakit.com.tr/rss/haber/otomotiv"
+      },
+      {
+        "name": "Emlak",
+        "url": "https://www.yeniakit.com.tr/rss/haber/emlak"
+      },
+      {
+        "name": "Sağlık",
+        "url": "https://www.yeniakit.com.tr/rss/haber/saglik"
+      },
+      {
+        "name": "Medya",
+        "url": "https://www.yeniakit.com.tr/rss/haber/medya"
+      },
+      {
+        "name": "Yaşam",
+        "url": "https://www.yeniakit.com.tr/rss/haber/yasam"
+      },
+      {
+        "name": "Yerel",
+        "url": "https://www.yeniakit.com.tr/rss/haber/yerel"
+      },
+      {
+        "name": "Eğitim",
+        "url": "https://www.yeniakit.com.tr/rss/haber/egitim"
+      },
+      {
+        "name": "Bilim ve Teknoloji",
+        "url": "https://www.yeniakit.com.tr/rss/video/bilim-teknoloji"
+      },
+      {
+        "name": "15 Temmuz",
+        "url": "https://www.yeniakit.com.tr/rss/video/15temmuz"
+      },
+      {
+        "name": "Çocuk ve Eğitim",
+        "url": "https://www.yeniakit.com.tr/rss/video/cocuk-egitim"
+      },
+      {
+        "name": "Dünya",
+        "url": "https://www.yeniakit.com.tr/rss/video/dunya"
+      },
+      {
+        "name": "Ekonomi",
+        "url": "https://www.yeniakit.com.tr/rss/video/ekonomi"
+      },
+      {
+        "name": "Emlak Rehberi",
+        "url": "https://www.yeniakit.com.tr/rss/video/emlak-rehberi"
+      },
+      {
+        "name": "Gezi",
+        "url": "https://www.yeniakit.com.tr/rss/video/gezi"
+      },
+      {
+        "name": "Güncel",
+        "url": "https://www.yeniakit.com.tr/rss/video/guncel"
+      },
+      {
+        "name": "Gündem",
+        "url": "https://www.yeniakit.com.tr/rss/video/gundem"
+      },
+      {
+        "name": "Hayat Aktüel",
+        "url": "https://www.yeniakit.com.tr/rss/video/hayat-aktuel"
+      },
+      {
+        "name": "İslam",
+        "url": "https://www.yeniakit.com.tr/rss/video/islam"
+      },
+      {
+        "name": "Kültür-Sanat",
+        "url": "https://www.yeniakit.com.tr/rss/video/kultur-sanat"
+      },
+      {
+        "name": "Medya",
+        "url": "https://www.yeniakit.com.tr/rss/video/medya"
+      },
+      {
+        "name": "Ramazan",
+        "url": "https://www.yeniakit.com.tr/rss/video/ramazan"
+      },
+      {
+        "name": "Siyaset",
+        "url": "https://www.yeniakit.com.tr/rss/video/siyaset"
+      },
+      {
+        "name": "Spor",
+        "url": "https://www.yeniakit.com.tr/rss/video/spor"
+      },
+      {
+        "name": "Trafik Kazaları",
+        "url": "https://www.yeniakit.com.tr/rss/video/trafik-kazalari"
+      },
+      {
+        "name": "Türkiye",
+        "url": "https://www.yeniakit.com.tr/rss/video/turkiye"
+      },
+      {
+        "name": "Yaşam",
+        "url": "https://www.yeniakit.com.tr/rss/video/yasam"
+      },
+      {
+        "name": "Yerel",
+        "url": "https://www.yeniakit.com.tr/rss/video/yerel"
+      },
+      {
+        "name": "Ana Sayfa",
+        "url": "https://www.yeniasir.com.tr/rss/anasayfa.xml"
+      }
+    ]
+  }
+}

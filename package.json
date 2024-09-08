@@ -1,0 +1,33 @@
+{
+  "name": "uhaber",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.ts start",
+    "serve": "tsx --watch main.ts start",
+    "source:update": "tsx main.ts update",
+    "source:update:watch": "tsx --watch main.ts update",
+    "news:add": "tsx main.ts addNews",
+    "news:add:watch": "tsx --watch main.ts addNews"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.5.0",
+    "firebase-admin": "^12.4.0",
+    "node-cron": "^3.0.3",
+    "rss-parser": "^3.13.0",
+    "tsx": "^4.19.0",
+    "u-logger": "https://github.com/uys2000-projects/ULogger"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11",
+    "@types/u-logger": "https://github.com/uys2000-projects/Types-Ulogger"
+  }
+}
