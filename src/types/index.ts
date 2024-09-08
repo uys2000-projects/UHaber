@@ -3,6 +3,7 @@ interface UCategory {
   url: string;
 }
 interface USource {
+  id: string;
   name: string;
   categories: UCategory[];
   timesamp: number;
@@ -10,7 +11,9 @@ interface USource {
 }
 
 interface UNews {
+  siteCode: string;
   site: string;
+  categoryCode: string;
   category: string;
   url: string;
   title: string;

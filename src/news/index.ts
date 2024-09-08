@@ -4,7 +4,7 @@ import { db } from "../firebase";
 import { ask } from "../gemini";
 export const getSources = async () => {
   const sources = await db.collection(SOURCE).get();
-  return sources.docs.map((doc) => doc.data() as USource);
+  return sources.docs.map((doc) => ({ ...doc.data(), id: doc.id } as USource));
 };
 
 const getCategoryLinks = async (url: string) => {
@@ -39,7 +39,9 @@ const getData = (
   news: { title: string; summary: string }
 ): UNews => {
   return {
+    siteCode: site.id,
     site: site.name,
+    categoryCode: category.name.replace(/ /g, "-").toLocaleLowerCase(),
     category: category.name,
     url: url,
     title: news.title,
@@ -47,10 +49,12 @@ const getData = (
     timestamp: Date.now(),
   };
 };
+
 const urlExist = async (url: string) => {
   const snapshot = await db.collection(NEWS).where("url", "==", url).get();
   return snapshot.docs.length > 0;
 };
+
 const addNews = async (data: UNews) => {
   const snapshot = await db.collection(NEWS).where("url", "==", data.url).get();
   if (snapshot.docs.length == 0) {
@@ -59,6 +63,7 @@ const addNews = async (data: UNews) => {
   }
   return false;
 };
+
 export default async () => {
   const sites = await getSources();
   for (let sIndex = 0; sIndex < sites.length; sIndex++) {
