@@ -1,4 +1,4 @@
-import { get } from "../axios";
+import { get, post } from "../axios";
 import { NEWS, SOURCE } from "../constant";
 import { db } from "../firebase";
 import { ask } from "../gemini";
@@ -81,6 +81,10 @@ export default async () => {
         const news = await getNews.pLogger(summary);
         const data = getData(site, category, url, news);
         await addNews.pLogger(data);
+        await post.pLogger(process.env.TWITTER ?? "http://asd:3000", {
+          id: "uhaber",
+          content: `${data.summary}\n\nKaynak: ${data.url}\n\nHaber Ozetleri: https://uhaber.mehmetuysal.dev`,
+        });
       }
     }
   }
