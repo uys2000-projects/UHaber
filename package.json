@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "main": "main.ts",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uys2000-projects/UHaber.git"
-  },
   "scripts": {
     "start": "tsx main.ts start",
     "serve": "tsx --watch main.ts start",
