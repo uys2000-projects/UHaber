@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY dist .
 
-CMD [ "node", "main.cjs" ]
+CMD [ "node", "main.cjs", "start" ]
