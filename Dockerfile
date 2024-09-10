@@ -2,9 +2,6 @@ FROM node:alpine
 
 WORKDIR /app
 
-COPY . .
+COPY dist .
 
-RUN apk add git
-RUN yarn
-
-CMD [ "yarn", "start" ]
+CMD [ "node", "main.cjs" ]
