@@ -84,7 +84,7 @@ export default async () => {
         await post(process.env.TWITTER ?? "http://asd:3000", {
           id: "uhaber",
           content: `${data.summary}\n\nKaynak: ${data.url}\n\nHaber Ozetleri: https://uhaber.mehmetuysal.dev`,
-        });
+        }).catch(() => undefined);
       }
     }
   }
