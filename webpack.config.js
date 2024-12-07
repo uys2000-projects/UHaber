@@ -6,6 +6,7 @@ const __dirname = path.dirname(__filename); // get the name of the directory
 
 export default {
   entry: "./main.ts",
+  mode: "production",
   target: "node", // Bundles code for Node.js environment.
   module: {
     rules: [
