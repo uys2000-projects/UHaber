@@ -14,7 +14,7 @@ export const prepeareRawJournalsScheduler = async (now: boolean = false) => {
 
 export const prepeareJournalScheduler = async (now: boolean = false) => {
   const options = { scheduled: true, timezone: "Europe/Istanbul" };
-  const task = cron.schedule("*/2 * * * *", prepeareJournal, options);
+  const task = cron.schedule("*/10 * * * *", prepeareJournal, options);
   task.start();
   if (now) task.now();
 };
