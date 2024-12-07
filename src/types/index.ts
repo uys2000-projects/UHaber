@@ -1,22 +1,39 @@
-interface UCategory {
-  name: string;
-  url: string;
-}
-interface USource {
+export interface UDocument<T> {
   id: string;
-  name: string;
-  categories: UCategory[];
-  timesamp: number;
-  utimesamp: number;
+  data: T;
+  timestamp: number;
+  utimestamp: number;
 }
 
-interface UNews {
-  siteCode: string;
-  site: string;
-  categoryCode: string;
+export interface UOrganization {
+  codeName: string;
+  name: string;
+  url: string;
+}
+export interface UCategory {
+  codeName: string;
+  name: string;
+  url: string;
+}
+export interface USource {
+  organization: string;
   category: string;
   url: string;
-  title: string;
-  summary: string;
-  timestamp: number;
+}
+
+export interface UJournal {
+  rss: {
+    url: string;
+    title: string;
+    content: string;
+    pubDate: string;
+  };
+  result: {
+    title: string;
+    summary: string;
+    ptimestamp: number;
+  };
+  source: string;
+  category: string;
+  organization: string;
 }

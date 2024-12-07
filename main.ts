@@ -1,11 +1,11 @@
 import "dotenv/config";
 import "./src/ulogger";
 
+const start = async (now: boolean = false) => {
+  (await import("./src/cron")).prepeareRawJournalsScheduler(now);
+  (await import("./src/cron")).prepeareJournalScheduler();
+};
 (async () => {
-  if (process.argv[2] == "update") (await import("./src/source")).default();
-  else if (process.argv[2] == "start") {
-    (await import("./src/news")).default();
-    (await import("./src/cron")).default();
-  } else if (process.argv[2] == "addNews")
-    (await import("./src/news")).default();
+  if (process.argv[2] == "start") start();
+  if (process.argv[2] == "start:now") start(true);
 })();
